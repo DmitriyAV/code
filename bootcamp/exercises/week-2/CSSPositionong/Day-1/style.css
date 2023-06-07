@@ -1,0 +1,27 @@
+.child {
+   
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+}
+
+#parent {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color: blue;
+}
+
+#firstCh {
+    left: 20px;
+    height: 200px;
+    width: 10px;
+    
+    
+}
+
+#secondCh {
+    top: 20px;
+    width: 200px;
+    height: 10px;
+}

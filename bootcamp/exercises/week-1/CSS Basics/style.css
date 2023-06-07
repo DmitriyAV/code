@@ -1,0 +1,9 @@
+body { background-color: antiquewhite;}
+#container {background-color: #ddd;}
+#first {color: aquamarine;}
+#second {color: black;}
+.prompt {color: blueviolet;}
+.button { color: brown;}
+#fNav {background-color: rgb(51, 51, 51);}
+.hero-image { width: 100%}
+li:first-child {color: green;}

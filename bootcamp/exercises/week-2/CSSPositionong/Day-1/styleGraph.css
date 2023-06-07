@@ -1,0 +1,74 @@
+#parent {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+}
+
+#T {
+    position: absolute;
+     bottom: 10px;
+      right: 10px;
+}
+
+#M {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.text {
+    color: black;
+    font-family: sans-serif;
+}
+
+.child {
+    background-color: gray;
+
+    width: 20px;
+}
+
+#fCh {
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+#sCh {
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+#tCh {
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 90px;
+
+}
+
+#foCh {
+    height: 85px;
+    position: absolute;
+    bottom: 10px;
+    left: 130px;
+}
+
+#fiCh {
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    left: 170px;
+}
+
+
+#siCh {
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 210px;
+}

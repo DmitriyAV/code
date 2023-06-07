@@ -1,0 +1,33 @@
+.parent {
+    position: relative;
+    margin: auto;
+}
+
+#id {
+    width: 100%;
+}
+
+#lTop {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#rTop {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#lbottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#rBottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

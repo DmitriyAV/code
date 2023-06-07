@@ -1,0 +1,116 @@
+/* #example {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#parent {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    
+}
+
+#child1 {
+    background-color: blue;
+    
+    
+}
+
+#child2 {
+    background-color: green;
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+} */
+
+/* #example {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#parent {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    
+}
+
+#child1 {
+    background-color: blue;
+    
+    
+}
+
+#child2 {
+    background-color: green;
+}
+
+
+.child{
+    width: 100px;
+    height: 100px;
+} */
+
+/* #parent {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+  }
+
+  
+  #child1{
+    
+    position: absolute;
+      background-color: blue;
+  }
+  
+  #child2 {
+      background-color: green;
+  }
+  
+  
+  .child{
+     width: 50px; 
+    height: 50px;
+  } */
+
+  #scrollView {
+    scroll-behavior: smooth;
+  }
+
+  #navigationBar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    
+}
+
+.buttons {
+  margin: 0.5%;
+   background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
