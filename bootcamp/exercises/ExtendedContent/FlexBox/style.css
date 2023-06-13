@@ -1,0 +1,34 @@
+.item {
+    font-size: xxx-large;
+    border: 3px solid #333;
+}
+
+.flexBox-container {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.main {
+    flex: 1 0 0;
+}
+
+
+.bar {
+    flex: 1 100%;
+    background-color: deepskyblue;
+}
+
+.menu {
+    background-color: plum;
+}
+
+
+.content {
+    flex-grow: 8;
+    background-color: pink;
+}
+

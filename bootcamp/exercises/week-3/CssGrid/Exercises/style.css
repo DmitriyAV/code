@@ -1,0 +1,97 @@
+/* Here we've use the grid-template-areas, because the overall layout is static! Everything inside though, that's a different story
+ */
+#chat{
+    display: grid;
+    grid-gap: 10px;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 15fr 1fr;
+    grid-template-areas:
+    "f c"
+    "f i";
+}
+
+.left {
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto min-content;
+    text-align: center;
+    place-self: start;
+    background-color: lightblue;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom:40px;
+    border: 2px solid plum;
+    border-radius: 5px;
+}
+
+.right {
+    display: grid;
+    grid-template-columns: auto min-content;
+    text-align: center;
+    place-self: end;
+    background-color: #16a085;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid plum;
+    border-radius: 5px;
+}
+
+#friends > p {
+    border-radius: 5px;
+    height: 25px;
+    gap: 5px;
+    background-color: #ce76ce;
+    text-align: left;
+    padding: 10px;
+}
+
+#friends{
+    gap: 5px;
+    background-color: purple;
+    text-align: left;
+    padding: 10px;
+    grid-area: f;
+    display: grid;
+}
+
+#chatterbox {
+    background-color: aliceblue;
+    grid-area: c;
+    display: grid;
+}
+
+.text{
+    display: grid;
+    align-items: start;
+    margin: 10px;
+}
+
+.time{
+    display: grid;
+    align-items: end;
+    font-size: small;
+    margin: 10px;
+}
+
+.sendMassege{
+    border-radius: 20%;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 8fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-area: i;
+}
+
+#input{
+    display: grid;
+}
+
+#button{
+    display: grid;
+    align-content: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: purple;
+}

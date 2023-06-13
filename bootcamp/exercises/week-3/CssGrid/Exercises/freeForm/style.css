@@ -1,0 +1,40 @@
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.header {
+    grid-column: 1 / -1;
+    height: min-content;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.sidebar {
+    height: min-content;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.content {
+    height: min-content;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    height: min-content;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
