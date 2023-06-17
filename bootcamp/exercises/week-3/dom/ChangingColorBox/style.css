@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 4fr;
+    grid-template-columns: 6fr;
+}
+
+#box{
+    place-self: center;
+    gap: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border-color: #333333;
+    background-color: darkgray;
+}

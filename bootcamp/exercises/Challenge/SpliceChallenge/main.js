@@ -1,11 +1,30 @@
-const splice = function (arr, ...args) {
-    if (args.length <= 0) {
-        return console.log("Not enough arguments was passed.")
-    } else if (args.length === 1) {
-        const deletedElement =  arr.filter(item => item.index !== args)
-         return deletedElement
+const splice = function (arr, start, deleteEl, ...args) {
+    let resultRemove = []
+
+    //delete all element till end
+    for (let i = start; i < arr.length; i++) {
+        resultRemove.push(arr[i])
+    }
+    //
+    for (let i = start; i < start + deleteEl; i++) {
+        resultRemove.push(arr[i])
 
     }
+    const remainingItems = [];
+
+    for (let i = start + deleteEl; i < arr.length; i++) {
+        remainingItems.push(arr[i]);
+    }
+    arr.length = start;
+
+    for (let i = 0; i < args.length; i++) {
+        arr.push(args[i]);
+    }
+    for (let i = 0; i < remainingItems.length; i++) {
+        arr.push(remainingItems[i]);
+    }
+
+    return resultRemove
 }
 
 // remove 1 element

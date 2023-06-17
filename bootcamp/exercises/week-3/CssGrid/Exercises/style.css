@@ -40,7 +40,7 @@
 
 #friends > p {
     border-radius: 5px;
-    height: 25px;
+    height: auto;
     gap: 5px;
     background-color: #ce76ce;
     text-align: left;
