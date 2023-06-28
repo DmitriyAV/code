@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: repeat(3, auto);
+    gap: 10px;
+}
+
+#posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.name{
+    font-style: italic;
+    font-size: large;
+    width: fit-content;
+}
+
+.postText{
+
+}
