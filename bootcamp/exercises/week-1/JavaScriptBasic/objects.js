@@ -17,17 +17,17 @@ if (p1.age == p2.age && p1.city == p2.city) {
 //Library
 
 let book = {
-    authior: "Mark Tven",
+    author: "Mark Tven",
     title: "Book"
 }
 
 let book1 = {
-    authior: "Van Pears",
+    author: "Van Pears",
     title: "Book"
 }
 
 let book2 = {
-    authior: "Tolstoy",
+    author: "Tolstoy",
     title: "book"
 }
 

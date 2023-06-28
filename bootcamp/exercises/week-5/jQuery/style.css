@@ -1,0 +1,49 @@
+.h-toBlue{
+    color: blue;
+}
+
+.red-div{
+    color: red;
+}
+
+.ui-to-green{
+    background-color: green;
+}
+
+.li-to-pink{
+    background-color: plum;
+}
+
+#brown-div {
+    color: brown;
+}
+
+.h-box{
+    background-color: plum;
+    height: 100px;
+    width: 100px;
+}
+
+.h-box-change {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: purple;
+    display: inline-block;
+}
+
+.box-change {
+
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: plum;
+    display: inline-block;
+
+}
