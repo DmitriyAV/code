@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="container">
+    <label for="input">
+        <input id="input" type="text" placeholder="make your request">
+        <div id="button">BBB</div>
+    </label>
+    <div id="iFrameContainer"></div>
+</div>
+<script id="gif-template" type="text/x-handlebars-template">
+    <iframe id="img" src="{{gifUrl}}"></iframe>
+</script>
+
+<script src="main.js"></script>
+</body>
+</html>
